@@ -22,7 +22,7 @@ while 1:
 
     cv.imshow("Video raw", frame_BGR)
     cv.imshow("Mask", mask)
-    cv.imshow("Result", result)
+    # cv.imshow("Result", result)
 
     if cv.waitKey(1) == ord('q'):
         break
