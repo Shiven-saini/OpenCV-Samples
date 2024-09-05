@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("samples/messi5.jpg", cv.IMREAD_GRAYSCALE)
+img = cv.imread("sources/messi5.jpg", cv.IMREAD_GRAYSCALE)
 
 rows, cols = img.shape
 
@@ -10,4 +10,3 @@ translated = cv.warpAffine(img, M, (cols, rows))
 
 cv.imshow("Translated", translated)
 cv.waitKey(0)
-cv.destroyAllWindows()
