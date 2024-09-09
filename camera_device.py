@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np 
 import requests
 
-ip_device = "100.64.5.131"
+ip_device = "100.64.42.8"
 url = f"http://{ip_device}:8080/shot.jpg"
 
 while True:
