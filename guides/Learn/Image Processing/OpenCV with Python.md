@@ -1,7 +1,7 @@
 
 ---
 
-![[Pasted image 20240831065032.png]]
+![[attachments/Pasted image 20240831065032.png]]
 
 **OpenCV** is an open source computer vision and machine learning software library. The official library has more than 2500 optimized algorithms, which includes a comprehensive set of classic algorithms as well as state of the art computer vision and machine learning algorithms.
 
@@ -63,7 +63,7 @@ img = cv.imread("samples/starry_night.jpg")
 
 Using `imread(param1, param2)` function, we can read the image file. The First parameter accepts the File path (Absolute or Relative), Second parameter is optional and specifies the format in which we want the image.
 
-![[Pasted image 20240831080915.png]]
+![[attachments/Pasted image 20240831080915.png]]
 
 Possible values for Second Parameter :-
 - IMREAD_COLOR : loads the image in the BGR 8-bit format. (Default param)
@@ -99,7 +99,7 @@ Things to do :-
 
 To capture a video from a camera and convert it to grayscale.
 
-![[Pasted image 20240831093608.png|500]]
+![[attachments/Pasted image 20240831093608.png|500]]
 
 
 **Source Code :-**
@@ -179,7 +179,7 @@ Some of the commonly used propIDs are :-
 
 To play a video file stored locally on the device.
 
-![[Pasted image 20240831093927.png]]
+![[attachments/Pasted image 20240831093927.png]]
 
 **Source Code :-**
 
@@ -281,7 +281,7 @@ Common arguments to pass in the used functions are
 - thickness : Thickness of the line in px. -1 for filled shapes.
 - lineType : Type of line to use 8-connected or anti-aliased line.
 
-![[Pasted image 20240831114152.png]]
+![[attachments/Pasted image 20240831114152.png]]
 #### Create a black canvas background
 
 **Source Code :-**
@@ -295,31 +295,31 @@ img = np.zeros((512, 512, 3), np.uint8)
 
 #### Drawing Line
 
-![[Pasted image 20240831112735.png]]
+![[attachments/Pasted image 20240831112735.png]]
 
 To draw a line, you need to pass *starting* and *ending coordinates* of line.
 
 #### Drawing Rectangle
 
-![[Pasted image 20240831113121.png]]
+![[attachments/Pasted image 20240831113121.png]]
 
 To draw a rectangle, you need to pass top-left and bottom-right corner coordinates.
 
 #### Drawing Circle
 
-![[Pasted image 20240831113353.png]]
+![[attachments/Pasted image 20240831113353.png]]
 
 To draw a circle, you need to pass center coordinates and radius.
 
 #### Drawing ellipse
 
-![[Pasted image 20240831113630.png]]
+![[attachments/Pasted image 20240831113630.png]]
 
 To draw an ellipse, we need to pass several parameters, center location, axes length, angle measuring starting and ending angle of ellipse arc from major axis.
 
 #### Adding text to images
 
-![[Pasted image 20240831114107.png]]
+![[attachments/Pasted image 20240831114107.png]]
 
 ### 4. Mouse as a paint brush
 
@@ -336,7 +336,7 @@ events = [i for i in dir(cv) if 'EVENT' in 1]
 print(events)
 ```
 
-![[Pasted image 20240831123952.png]]
+![[attachments/Pasted image 20240831123952.png]]
 
 #### Application to draw a circle on an image
 

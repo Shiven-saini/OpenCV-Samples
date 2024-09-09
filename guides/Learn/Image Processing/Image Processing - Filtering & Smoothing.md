@@ -8,7 +8,7 @@ Smoothing can be done to blur images. Generally, when we use Low pass Filters fo
 
 OpenCV provides a function `cv.filter2D()` to convolve a kernel with an image. Convolution is basically mixing two input sources in right order and time to generate a mixed output data. 
 
-![[filter-1|500]]
+![[Excalidraw/filter-1|500]]
 
 A 5x5 averaging kernel (kernel is nothing but a simple matrix, that is used in convolution operation) is just a 2-D array of 1's. It's really simple, what does it do exactly is that a 5x5 matrix will cover 25 pixels at once. The input pixel in question will be at the center, it's new value will be an average/mean of all the 24 pixels surrounding it. Hence, the name **Averaging/Mean** Filter.
 
@@ -41,13 +41,13 @@ To process the final data, it will apply the kernel on the source, generated in 
 Same can be done using above mentioned `.filter2D()` method. However the following techniques generates and process kernel in one command itself.
 ## 1. Averaging
 
-![[Pasted image 20240907100906.png|300]]
+![[attachments/Pasted image 20240907100906.png|300]]
 
 **Method =>** `cv.blur()`
 - First parameter : Image source
 - Second parameter : dimension of 2-D kernel (tuples data type)
 
-![[Pasted image 20240907101124.png|300]]
+![[attachments/Pasted image 20240907101124.png|300]]
 
 This will take a 2-D 1's matrix and take all the pixels surrounding the pixel in question, and set it's mean value to that pixel. Same as done above, though in this method we don't need to generate the kernel manually. The method will take care of it itself.
 
@@ -67,7 +67,7 @@ cv.imshow("5x5 matrix", output2)
 
 Gaussian blur is when we take the weighted-sum of the surrounding pixels and assign it to pixel's intensity. Gaussian blur differs from simple averaging blur is due to the fact that it takes care of weight aka the distance from the pixel.
 
-![[Pasted image 20240907103811.png|500]]
+![[attachments/Pasted image 20240907103811.png|500]]
 
 **Method =>** `cv.GaussianBlur()`
 - First parameter : source
@@ -91,7 +91,7 @@ cv.imshow("Gaussian Blur", output)
 
 ## 3. Median Blurring
 
-![[Pasted image 20240907104951.png|500]]
+![[attachments/Pasted image 20240907104951.png|500]]
 
 Median blurring takes all the value of pixels under the kernel and take the median value. The concerned pixel is given this median value.
 Median blurring is highly effective while dealing with *high noise images*.
@@ -112,7 +112,7 @@ cv.imshow("Processed image", filtered)
 
 ## 4. Bilateral Filtering
 
-![[Pasted image 20240907111218.png|500]]
+![[attachments/Pasted image 20240907111218.png|500]]
 
 Bilateral filtering is ideal for denoising images while also maintaining the *sharpness of edges*.
 It achieves so by using two different gaussian functions, one for weighted sum of nearby pixels, second for maintaining the pixel difference. Which will make the edges stay intact.

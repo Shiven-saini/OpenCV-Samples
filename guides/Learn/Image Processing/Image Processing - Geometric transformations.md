@@ -32,7 +32,7 @@ Different interpolation methods are used. Following are the most frequently used
 - `cv.INTER_CUBIC`: Preferred for *Shrinking* but slow
 - `cv.INTER_LINEAR` : Preferred for Zooming. (Default)
 
-![[Pasted image 20240903221751.png]]
+![[attachments/Pasted image 20240903221751.png]]
 
 **Source Code :-**
 
@@ -60,7 +60,7 @@ To mention the x and y axis, scaling factor.
 
 ### 2. Translation
 
-![[Pasted image 20240903223028.png|400]]
+![[attachments/Pasted image 20240903223028.png|400]]
 
 Translation is the shifting of an object's location. We shift the image by generating and using a transformation matrix :
 
@@ -110,7 +110,7 @@ translated = cv.warpAffine(img, M, (cols, rows))
 
 ### 3. Rotation
 
-![[Pasted image 20240903224844.png]]
+![[attachments/Pasted image 20240903224844.png]]
 
 Rotation of an image for an angle $\theta$ , it is achieved by using a transformation matrix of the form :-
 
@@ -150,7 +150,7 @@ cols-1 and rows-1 are the limits of coordinates available to process for that pa
 
 In an affine transformation, all *parallel lines* in the original image will still be *parallel* in the processed image.
 
-![[Pasted image 20240903230257.png]]
+![[attachments/Pasted image 20240903230257.png]]
 
 To generate a transformation matrix, we need *three points from the input image* and *points where it should be in the processed image.* We don't need to manually create the transformation matrix, OpenCV provides `cv.getAffineTransform` function, that will generate this 2x3 transformation matrix for us.
 
@@ -180,7 +180,7 @@ In the above code, I mentioned point's coordinates for all 3 points in the origi
 
 In perspective transformation, straight lines will remain straight even after the transformation. For this particular transformation, we will need a $3*3$ transformation matrix
 
-![[Pasted image 20240903232715.png]]
+![[attachments/Pasted image 20240903232715.png]]
 
 Important points to remember :-
 - We need a $3x3$ dimension transformation matrix.

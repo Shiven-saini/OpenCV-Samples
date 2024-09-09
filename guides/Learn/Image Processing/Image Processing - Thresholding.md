@@ -15,7 +15,7 @@ In Thresholding process, if the pixel value is smaller than the threshold, it wi
 
 ## 1. Simple Thresholding
   
-  ![[Pasted image 20240906002838.png]]
+  ![[attachments/Pasted image 20240906002838.png]]
 
 - Function `cv.threshold` uses 4 parameters.
 - it returns two outputs. The first is the threshold that was use and second output is the process image.
@@ -29,11 +29,11 @@ In Thresholding process, if the pixel value is smaller than the threshold, it wi
   - `THRESH_TOZERO`
   - `THRESH_TOZERO_INV`
 
-![[Pasted image 20240905182413.png]]
+![[attachments/Pasted image 20240905182413.png]]
 
 ## 2. Adaptive Thresholding
 
-![[Pasted image 20240905205729.png|500]]
+![[attachments/Pasted image 20240905205729.png|500]]
 
 Unlike simple thresholding, where we used one global value as threshold, in this technique we use different threshold values for different regions. This makes it easier to process image under different lighting conditions. Adaptive algorithms can analyze the image for differing light conditions and process the image accordingly.
 
@@ -53,7 +53,7 @@ In otsu's binarization algorithm, unlike simple and adaptive thresholding, the c
 
 `cv.threshold()` : method is used (same as simple thresholding)
 
-![[Pasted image 20240905231606.png]]
+![[attachments/Pasted image 20240905231606.png]]
 
 **Algorithm :-**
 First of all, the source image's histogram is computed. Depending on the histogram,  the threshold value is calculated such as the threshold value is equally distant from two peaks.

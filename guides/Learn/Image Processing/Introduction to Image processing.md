@@ -4,7 +4,7 @@
 
 **Digital image processing** is about processing image or other related visual data using a digital computer. It uses algorithms or machine learning to enhance or extract meaningful information from the image source.
 
-![[Pasted image 20240830200337.png]]
+![[attachments/Pasted image 20240830200337.png]]
 
 ### What is an Image ?
 
@@ -15,12 +15,12 @@ In terms of mathematics,
 - A *digital image* consists of finite number of these elements, these smallest unit of elements are called **pixels**.
 
 
-![[Pasted image 20240830183640.png]]
+![[attachments/Pasted image 20240830183640.png]]
 
 
 ### What is Pixel ?
 
-![[Pasted image 20240830200205.png]]
+![[attachments/Pasted image 20240830200205.png]]
 
 The word *pixel*, is a fusion word for picture element. It is the smallest unit of a digital image that can be manipulated. A single image consists of several thousands of millions of individual pixels. Pixel is the smallest hardware component on screen, that can display a color. The magnitude of **pixels per inch (PPI)** is directly related to better visual details.
 Each pixel has a characteristic of color and brightness.
@@ -57,7 +57,7 @@ We can commonly find rgb value represented in Hex Codes like `#FFFFFF` for white
 
 An RGB is essentially an $M*N*3$ array, in which 3 different 2-D arrays are stacked on top of each other. (R -> G -> B)
 
-![[rgb-color|1000]]
+![[Excalidraw/rgb-color|1000]]
 #### Advantages of rgb Color model
 
 - It is a computationally practical system.
@@ -71,7 +71,7 @@ An HSV model is by far the most accurate model of how humans perceive colors. Bi
 
 The H stands for *Hue*, S stands for *Saturation* and V stands for *Value.*
 
-![[color_cone|1000]]
+![[Excalidraw/color_cone|1000]]
 
 
 - **Hue:** The hue represents the color. The hue value ranges from 0 to 360 degrees. It is divided in 6 sections each representing different base color.

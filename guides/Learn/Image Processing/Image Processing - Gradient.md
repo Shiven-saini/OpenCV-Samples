@@ -38,7 +38,7 @@ It calculates the laplacian of the image by the formula of laplace derivative, w
 > **Tradeoff :**
 > Since, laplacian method uses second-order derivative, it is more sensitive to any intensity changes, which is sometimes good but can also induce a lot of unnecessary noise in processed data. On the other hand, Sobel and scharr derivatives are of first order and hence work quite good enough for the task.
 
-![[Pasted image 20240906140242.png]]
+![[attachments/Pasted image 20240906140242.png]]
 
  **Different values for ksize(-1, 1, 3, 5, 7) generates different kernel matrix.**
 

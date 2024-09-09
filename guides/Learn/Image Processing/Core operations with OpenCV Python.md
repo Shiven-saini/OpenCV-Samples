@@ -49,7 +49,7 @@ print(img.dtype)          # returns data type of an image.
 
 #### Image ROI (Region of Images/ Region of interest)
 
-![[Pasted image 20240901112759.png]]
+![[attachments/Pasted image 20240901112759.png]]
 
 Sometimes we have to manipulate or are interested in only a smaller section of the image rather than the whole. For example, in a program of eye detection, we are only interested in the person's face rather than the whole image. For this, we can slice off only those range pixels and apply the algorithm on those instead.
 
@@ -67,7 +67,7 @@ g = img[:, :, 1]
 
 ```
 
-![[Pasted image 20240901113149.png]]
+![[attachments/Pasted image 20240901113149.png]]
 
 ## 2. Arithmetic Operations on Images
 
@@ -99,7 +99,7 @@ Also a type of image addition, but different weights are given to images in orde
 
 `cv.addWeighted(img1, alpha1, img2, alpha2, scalar)` method can be used to blend images together.
 
-![[Pasted image 20240901111112.png]]
+![[attachments/Pasted image 20240901111112.png]]
 
 Image pixels are manipulated as per :-
 $$h(x) = (1-a)*f(x) + a*g(x)$$

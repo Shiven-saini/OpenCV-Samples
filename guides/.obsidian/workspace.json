@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f2bfcfdc0f879c40",
+        "id": "eecebf3be1d98a8a",
         "type": "tabs",
         "children": [
           {
-            "id": "95bd62c68ba18cfb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-09-07 12.12.12.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "9dadd22df4ad4d21",
+            "id": "f63c0a6a629df2c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -28,31 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "080d64063da533bc",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-09-09 18.25.31.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "d00b5599b7882d1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Learn/Image Processing/Image Processing - Thresholding.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,27 +147,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9dadd22df4ad4d21",
+  "active": "f63c0a6a629df2c9",
   "lastOpenFiles": [
+    "Learn/Image Processing/Canny Edge Detection.md",
+    "Learn/Image Processing/OpenCV with Python.md",
+    "Learn/Image Processing/Pasted image 20240907114640.png",
+    "Learn/Image Processing/Introduction to Image processing.md",
+    "Learn/Image Processing/Image Processing in OpenCV.md",
+    "Learn/Image Processing/Image Processing - Thresholding.md",
+    "Learn/Image Processing/Image Processing - Gradient.md",
+    "Learn/Image Processing/Image Processing - Geometric transformations.md",
+    "Learn/Image Processing/Image Processing - Filtering & Smoothing.md",
+    "Learn/Image Processing/Image Processing - Canny Edge Detection.md",
+    "Learn/Image Processing/Core operations with OpenCV Python.md",
     "Learn/Image Processing/Image Processing.md",
     "Excalidraw/Drawing 2024-09-07 11.59.51.excalidraw.md",
     "Learn/Image Processing - Contours.md",
     "Learn/Pasted image 20240909204024.png",
     "Learn/Pasted image 20240909195023.png",
-    "Learn/Image Processing/Image Processing - Thresholding.md",
     "Excalidraw/Drawing 2024-09-07 12.12.12.excalidraw.md",
-    "Learn/Image Processing/Image Processing - Canny Edge Detection.md",
     "Learn/Pasted image 20240909182730.png",
     "Excalidraw/Drawing 2024-09-09 18.25.31.excalidraw.md",
     "Excalidraw/Drawing 2024-09-07 11.44.30.excalidraw.md",
-    "Learn/Image Processing/Image Processing - Filtering & Smoothing.md",
     "Learn/Image Processing/Pasted image 20240907121349.png",
     "Excalidraw/Pasted Image 20240907121308_420.png",
     "Excalidraw/Pasted Image 20240907121235_167.png",
     "Learn/Image Processing/Pasted image 20240907120259.png",
     "Learn/Image Processing/Pasted image 20240907115919.png",
     "Learn/Image Processing/Pasted image 20240907115138.png",
-    "Learn/Image Processing/Pasted image 20240907114640.png",
     "Excalidraw",
     "Untitled.md",
     "Learn/Exported-PDFs/Image Processing - Filtering & Smoothing.pdf",
@@ -208,7 +182,6 @@
     "Learn/Excalidraw/Drawing 2024-09-07 10.48.20.excalidraw.md",
     "Learn/Excalidraw/Drawing 2024-09-07 10.36.29.excalidraw.md",
     "Learn/Excalidraw/Drawing 2024-09-07 10.07.43.excalidraw.md",
-    "Learn/Excalidraw/filter-1.md",
-    "Learn/Image Processing/Image Processing - Gradient.md"
+    "Learn/Excalidraw/filter-1.md"
   ]
 }

@@ -28,7 +28,7 @@ To List out all the available conversion methods available in the library
 
 We can use the color-conversion method in our program that is supposed to extract a colored object out of a given image source. ==In HSV, it is easier to represent color than in BGR.== Because in contrast to BGR, we only need Hue and Saturation range to detect a color.
 
-![[Pasted image 20240903191514.png]]
+![[attachments/Pasted image 20240903191514.png]]
 
 **Approach :-**
 - Take each frame of the video.
