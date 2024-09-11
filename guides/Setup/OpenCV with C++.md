@@ -35,7 +35,7 @@ sudo pacman -S base-devel
 
 > [!warning] Please note that packages in the official repositories might not be up-to-date.
 
-2. Download OpenCV Source Code : 
+2. Download OpenCV source code : 
 ```bash
 git clone https://github.com/opencv/opencv.git
 cd opencv
@@ -49,7 +49,7 @@ make -j$(nproc)       # To enable multi-core compilation
 sudo make install     # Install the compiled libraries onto system.
 ```
 
-5. Update Library Path :
+5. Update library path :
 ```bash
 sudo ldconfig
 ```
@@ -86,7 +86,7 @@ make
 ```
 
 
-## Better Way : To Compile and run an OpenCV project
+## Better way : To compile and run an OpenCV project
 
 I have written two bash scripts to automate the tasks of building and running the program. You can use these scripts by downloading scripts from my GitHub Repo.
 
@@ -100,7 +100,7 @@ I have written two bash scripts to automate the tasks of building and running th
 sudo curl -L -o /usr/bin/run https://raw.githubusercontent.com/Shiven-saini/OpenCV-Samples/main/cpp_specific/scripts/run.sh
 ```
 
-> [!warning] Location of the Scripts on GitHub Repo may change in future. So check out the repository before going ahead.
+> [!warning] Location of the scripts on GitHub repository may change in future. So check out the repository before going ahead.
 
 - Add execute permission using `chmod` : 
 
@@ -110,7 +110,7 @@ sudo chmod +x /usr/bin/gen_template /usr/bin/run
 
 **Usage =>**
 
-- To Generate a OpenCV C++ Template :
+- To generate an OpenCV C++ project template :
 ```bash
 gen_template PROJECT_NAME
 ```
@@ -122,14 +122,14 @@ run main.cpp
 
 > [!tip] gen_template script generates CMakeLists file for OpenCV and also build a .gitignore file for you.
 
-## Example : Display Image in OpenCV C++
+## Example : Display image in OpenCV C++
 
 - Create project using `gen_template` script :
 ```bash
 gen_template display_image
 ```
 
-- Add Source Code in the `main.cpp` file :
+- Add source code in the `main.cpp` file :
 ```cpp
 #include <opencv2/opencv.hpp>
 using namespace cv;
