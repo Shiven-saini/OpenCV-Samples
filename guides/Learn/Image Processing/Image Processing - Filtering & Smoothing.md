@@ -8,7 +8,7 @@ Smoothing can be done to blur images. Generally, when we use Low pass Filters fo
 
 OpenCV provides a function `cv.filter2D()` to convolve a kernel with an image. Convolution is basically mixing two input sources in right order and time to generate a mixed output data. 
 
-![[Excalidraw/filter-1|500]]
+![[filter-1|500]]
 
 A 5x5 averaging kernel (kernel is nothing but a simple matrix, that is used in convolution operation) is just a 2-D array of 1's. It's really simple, what does it do exactly is that a 5x5 matrix will cover 25 pixels at once. The input pixel in question will be at the center, it's new value will be an average/mean of all the 24 pixels surrounding it. Hence, the name **Averaging/Mean** Filter.
 

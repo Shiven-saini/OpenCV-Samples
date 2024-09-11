@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing/OpenCV with Python.md",
+                "file": "Setup/OpenCV binding for C++.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "363ec3cd0d8a5cd4",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-09-06 13.33.49.excalidraw.md"
               }
             }
           }
@@ -95,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing/OpenCV with Python.md",
+                "file": "Setup/OpenCV binding for C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing/OpenCV with Python.md",
+                "file": "Setup/OpenCV binding for C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing/OpenCV with Python.md"
+                "file": "Setup/OpenCV binding for C++.md"
               }
             }
           }
@@ -157,8 +147,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6457c0813e0f797f",
+  "active": "1a4c77bd847a6cbd",
   "lastOpenFiles": [
+    "Setup",
+    "C++ Specific",
+    "Python Specific",
+    "Setup/OpenCV with Python.md",
+    "Untitled.md",
+    "2024-08-31.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-06 13.33.49.excalidraw.md",
     "Image Processing/Introduction to Image processing.md",
     "Image Processing/Image Processing in OpenCV.md",
     "Image Processing/Image Processing - Thresholding.md",
@@ -167,43 +164,36 @@
     "Image Processing/Image Processing.md",
     "Image Processing/Canny Edge Detection.md",
     "Image Processing/Image Processing - Canny Edge Detection.md",
-    "Image Processing/Python-Revisit.md",
-    "Image Processing/Pasted image 20240907121349.png",
-    "Untitled.md",
+    "Python Specific/Python-Revisit.md",
+    "Image Processing/attachments/Pasted image 20240907121349.png",
     "Exported-PDFs/Image Processing - Gradient.pdf",
     "Image Processing/attachments/Pasted image 20240906140242.png",
-    "Excalidraw/Drawing 2024-09-06 13.33.49.excalidraw.md",
-    "Excalidraw/attachments/Pasted Image 20240906140150_191.png",
+    "Image Processing/Excalidraw/attachments/Pasted Image 20240906140150_191.png",
     "Image Processing/Image Processing - Gradient (Edge Detection).md",
     "Image Processing/attachments/Pasted image 20240906133556.png",
-    "Excalidraw/attachments/Pasted Image 20240906133350_624.png",
+    "Image Processing/Excalidraw/attachments/Pasted Image 20240906133350_624.png",
     "Image Processing/attachments/Pasted image 20240906133343.png",
     "Image Processing/attachments/Pasted image 20240906002838.png",
-    "Excalidraw/Drawing 2024-09-05 18.50.15.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-05 20.53.18.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-05 23.13.52.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-05 18.50.15.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-05 20.53.18.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-05 23.13.52.excalidraw.md",
     "Image Processing/attachments/Pasted image 20240906002617.png",
     "Exported-PDFs/Image Processing - Thresholding.pdf",
     "Image Processing/attachments/Pasted image 20240906002403.png",
     "Image Processing/attachments/Pasted image 20240905231606.png",
-    "Excalidraw/Drawing 2024-09-03 22.14.21.excalidraw.md",
-    "Image Processing/OpenCV with Python.md",
-    "Excalidraw/Drawing 2024-09-05 18.21.33.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-03 22.14.21.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-05 18.21.33.excalidraw.md",
     "Exported-PDFs/Image Processing - Geometric transformations.pdf",
-    "Excalidraw/Drawing 2024-09-03 23.24.19.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-03 23.24.19.excalidraw.md",
     "Exported-PDFs/Image-Processing - Changing Colorspace.pdf",
     "Image Processing/Core operations with OpenCV Python.md",
-    "Excalidraw/Drawing 2024-09-03 19.05.27.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-01 11.06.39.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-01 10.45.20.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-01 10.23.13.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-03 19.05.27.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-01 11.06.39.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-01 10.45.20.excalidraw.md",
+    "Image Processing/Excalidraw/Drawing 2024-09-01 10.23.13.excalidraw.md",
     "Exported-PDFs/Core operations with OpenCV Python.pdf",
-    "Excalidraw/Drawing 2024-08-31 11.40.20.excalidraw.md",
     "Exported-PDFs/OpenCV with Python - GUI Features.pdf",
-    "Excalidraw/Drawing 2024-08-31 11.34.17.excalidraw.md",
     "Exported-PDFs/OpenCV with Python.pdf",
-    "Image Processing/samples",
-    "Exported-PDFs/Introduction to Image processing.pdf",
-    "Exported-PDFs"
+    "Image Processing/samples"
   ]
 }

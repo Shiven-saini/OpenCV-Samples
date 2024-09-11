@@ -57,7 +57,7 @@ We can commonly find rgb value represented in Hex Codes like `#FFFFFF` for white
 
 An RGB is essentially an $M*N*3$ array, in which 3 different 2-D arrays are stacked on top of each other. (R -> G -> B)
 
-![[Excalidraw/rgb-color|1000]]
+![[rgb-color|1000]]
 #### Advantages of rgb Color model
 
 - It is a computationally practical system.
@@ -71,7 +71,7 @@ An HSV model is by far the most accurate model of how humans perceive colors. Bi
 
 The H stands for *Hue*, S stands for *Saturation* and V stands for *Value.*
 
-![[Excalidraw/color_cone|1000]]
+![[color_cone|1000]]
 
 
 - **Hue:** The hue represents the color. The hue value ranges from 0 to 360 degrees. It is divided in 6 sections each representing different base color.

@@ -3,7 +3,7 @@
 
 **Code Repository =>** https://github.com/Shiven-saini/OpenCV-Samples
 
-![[../../Pasted image 20240907114640.png]]
+![[Pasted image 20240907114640.png]]
 
 
 **Canny Edge detection** is a popular edge detection algorithm. It was Developed by John F. Canny.
@@ -16,7 +16,7 @@ Steps involved in the algorithm :-
 $$\text{Edge\_Gradient}(G) = \sqrt{G_x^2 + G_y^2}, \quad \text{Angle}(\theta) = \tan^{-1}\left(\frac{G_y}{G_x}\right)$$
 - **Hysteresis Thresholding :** This stage decides which are real edges and which are not. We use two threshold values : *minVal* and *maxVal*. Any edges with gradient more than maxVal are sure to be edges and those below minVal are surely non-edges.
 
-![[../../Pasted image 20240907120259.png]]
+![[Pasted image 20240907120259.png]]
 
 Those edges which lies in-between the threshold values are then checked again if they are connected to true edge or not.
 
@@ -39,7 +39,7 @@ cv.imshow("Original", source)
 cv.imshow("Edges", edges)
 ```
 
-![[../../Pasted image 20240907121349.png]]
+![[Pasted image 20240907121349.png]]
 
 #### References :-
 - OpenCV Docs : https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html
