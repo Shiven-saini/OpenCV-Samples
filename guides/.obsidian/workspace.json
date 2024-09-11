@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Image Processing/Image Processing in OpenCV.md",
+                "file": "Setup/OpenCV with C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Image Processing/Image Processing in OpenCV.md",
+                "file": "Setup/OpenCV with C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Image Processing/Image Processing in OpenCV.md",
+                "file": "Setup/OpenCV with C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Image Processing/Image Processing in OpenCV.md"
+                "file": "Setup/OpenCV with C++.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "6457c0813e0f797f",
   "lastOpenFiles": [
+    "Image Processing/Image Processing in OpenCV.md",
     "Image Processing/Image Processing - Thresholding.md",
     "Image Processing/Image Processing - Gradient.md",
     "Image Processing/Image Processing - Geometric transformations.md",
@@ -156,7 +157,7 @@
     "Image Processing/Image Processing - Contours.md",
     "Python Specific/Python-Revisit.md",
     "Setup/OpenCV with Python.md",
-    "Setup/OpenCV binding for C++.md",
+    "Setup/OpenCV with C++.md",
     "Image Processing/Excalidraw 1/Pasted Image 20240907121308_420.png",
     "Image Processing/Excalidraw 1/Pasted Image 20240907121235_167.png",
     "Image Processing/Excalidraw 1/Pasted Image 20240907114508_412.png",
@@ -182,7 +183,6 @@
     "2024-08-31.md",
     "Image Processing/Excalidraw/Drawing 2024-09-06 13.33.49.excalidraw.md",
     "Image Processing/Introduction to Image processing.md",
-    "Image Processing/Image Processing in OpenCV.md",
     "Image Processing/Image Processing.md",
     "Image Processing/Canny Edge Detection.md",
     "Image Processing/Image Processing - Canny Edge Detection.md",
