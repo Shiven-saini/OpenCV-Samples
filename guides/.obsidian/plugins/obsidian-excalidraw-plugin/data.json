@@ -10,8 +10,8 @@
   "onceOffCompressFlagReset": true,
   "onceOffGPTVersionReset": false,
   "autosave": true,
-  "autosaveIntervalDesktop": 30000,
-  "autosaveIntervalMobile": 20000,
+  "autosaveIntervalDesktop": 15000,
+  "autosaveIntervalMobile": 10000,
   "drawingFilenamePrefix": "Drawing ",
   "drawingEmbedPrefixWithFilename": true,
   "drawingFilnameEmbedPostfix": " ",
@@ -35,7 +35,6 @@
   "matchThemeTrigger": false,
   "defaultMode": "normal",
   "defaultPenMode": "never",
-  "penModeDoubleTapEraser": true,
   "penModeCrosshairVisible": true,
   "renderImageInMarkdownReadingMode": false,
   "renderImageInHoverPreviewForMDNotes": false,
@@ -93,7 +92,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.4.2",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.3.0",
     "libraryItems": []
   },
   "imageElementNotice": true,
@@ -105,7 +104,7 @@
   "mdCSS": "",
   "scriptEngineSettings": {},
   "defaultTrayMode": true,
-  "previousRelease": "2.4.2",
+  "previousRelease": "2.3.0",
   "showReleaseNotes": true,
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
@@ -427,7 +426,6 @@
   "numberOfCustomPens": 0,
   "pdfScale": 4,
   "pdfBorderBox": true,
-  "pdfFrame": false,
   "pdfGapSize": 20,
   "pdfGroupPages": false,
   "pdfLockAfterImport": true,
@@ -451,7 +449,6 @@
     "borderOpacity": 0,
     "filenameVisible": false
   },
-  "markdownNodeOneClickEditing": false,
   "canvasImmersiveEmbed": true,
   "startupScriptPath": "",
   "openAIAPIToken": "",
@@ -751,26 +748,5 @@
   "longPressDesktop": 500,
   "longPressMobile": 500,
   "isDebugMode": false,
-  "rank": "Bronze",
-  "modifierKeyOverrides": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Enter"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "k"
-    },
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "G"
-    }
-  ],
-  "showSplashscreen": true
+  "rank": "Bronze"
 }

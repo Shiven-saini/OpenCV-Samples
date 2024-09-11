@@ -1,6 +1,3 @@
 {
-  "theme": "obsidian",
-  "enabledCssSnippets": [
-    "center-image"
-  ]
+  "theme": "obsidian"
 }
