@@ -34,6 +34,13 @@ echo 'Generating CMakeLists file Done!'
 echo 'Generating boiler-plate code....'
 cat <<EOL > main.cpp
 #include <opencv2/opencv.hpp>
+// #include <opencv2/imgproc/imgproc.hpp>
+// #include <opencv2/highgui/highgui.hpp>
+// #include <opencv2/video/video.hpp>
+// #include <opencv2/objdetect/objdect.hpp>
+// #include <opencv2/ml/ml.hpp>
+// #include <opencv2/calib3d/calib3d.hpp>
+
 using namespace cv;
 
 int main() {
